@@ -194,6 +194,9 @@ a { color: inherit; }
 }
 .ba-before {
   width: 50%; overflow: hidden; border-right: 2px solid var(--sun-chrome);
+}
+.ba-before-inner {
+  position: absolute; top: 0; left: 0; height: 100%;
   background-image: url('../img/gallery-before.jpg'), linear-gradient(135deg, #6b6f70 0%, #3a3f41 60%, #232729 120%);
   background-size: cover; background-position: center;
 }
