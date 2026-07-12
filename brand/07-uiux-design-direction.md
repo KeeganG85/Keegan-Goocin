@@ -37,7 +37,8 @@ Photography carries the emotional arc between sections — the copy explains, th
 ## Before/After Gallery Card & Slider
 
 - Card container: 4:3 image ratio, single draggable vertical handle styled as a thin Sun Chrome line with a small circular grip (echoing the "correction pass" logo mark).
-- Default position: handle at 35% from left (showing more "after" than "before" by default, since the after state is the selling point).
+- Default position: handle starts at the left edge and auto-reveals to center (50%) on scroll into view (matching the animation above), then hands control to the visitor's drag — the resting position after that automatic reveal is always center, never 35%.
+- **Accessibility:** the handle is a real `role="slider"` element with `aria-valuemin`/`aria-valuemax`/`aria-valuenow` kept in sync on drag, is reachable by keyboard (Tab) with a visible focus outline, and responds to Left/Right arrow keys in 5% steps. The automatic reveal animation is skipped entirely under `prefers-reduced-motion: reduce`, snapping straight to the center position instead.
 - Label chips: small "BEFORE" / "AFTER" text labels in Wet Asphalt, fade out on drag start and fade back in 800ms after drag ends.
 - Filter tabs above the gallery grid (All / Paint Correction / Ceramic / Interior) use the same underline-hover treatment as secondary CTAs.
 

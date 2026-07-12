@@ -15,7 +15,7 @@ To be the name Miami's most discerning car owners say without hesitation when so
 ## Five Core Values
 
 1. **Ownership.** We work on every vehicle as if the title were already in our name.
-2. **Precision.** Success is measured in microns of clear coat removed, not minutes on a invoice.
+2. **Precision.** Success is measured in microns of clear coat removed, not minutes on an invoice.
 3. **Discretion.** Access to a client's home, garage, and exotic is a trust we protect like a vault combination.
 4. **Correction, not concealment.** We fix the paint. We don't fog a swirl mark with filler and call it done.
 5. **Warmth.** Technical mastery delivered with real Miami hospitality — never corporate, never cold.
@@ -48,7 +48,7 @@ Most Miami detailers sell volume: a wash, a wax, a rotating crew, a fixed price 
 
 ## Brand Story
 
-*(150 words)*
+*(143 words)*
 
 Miami doesn't forgive a car. The sun bleaches clear coat by three o'clock, salt air off the causeway creeps into every seam, and a summer storm can etch water spots into hood paint before the humidity even breaks. Gleam was built for that fight — and for the particular ache of watching something you love get worn down by a city that never slows down for it.
 

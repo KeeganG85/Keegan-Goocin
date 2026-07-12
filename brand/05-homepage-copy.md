@@ -26,7 +26,7 @@ The sun doesn't slow down here, and neither do you. Gleam brings studio-grade co
 **Body copy:**
 Every package starts with an honest inspection, not a guess. We'll tell you exactly what your paint needs — whether that's a same-day refresh or a multi-day correction — before you spend a dollar.
 
-**CTA button (per package):** See What's Included
+**CTA button (per package):** Get This Package — links straight to Booking with that package pre-selected in the form.
 
 ---
 
@@ -39,7 +39,7 @@ Every package starts with an honest inspection, not a guess. We'll tell you exac
 **Body copy:**
 Gleam started with one rule: work on every car the way you'd work on your own. Not the fastest way. Not the cheapest way. The way you'd want it done if the keys had your name on them. That's mía — and it's the standard on every job, mobile van or studio bay, from a daily driver to a Miami paint correction on a car worth more than most houses.
 
-**CTA button:** Meet the Founder
+**CTA button:** See the work (soft text link to Gallery — no hard CTA in this section, per the Phase 3 sitemap)
 
 ---
 
@@ -65,7 +65,7 @@ Swirl marks gone. Water spots lifted. Leather brought back from years of Miami s
 **Body copy:**
 From a Range Rover in Coral Gables to a Ferrari in Brickell, here's what Miami owners say after their first Gleam appointment — and why most of them book their next one before they even leave.
 
-**CTA button:** Read More Reviews
+**CTA buttons:** Read More Reviews (secondary, links to Google Business Profile) and Book Now (primary)
 
 ---
 

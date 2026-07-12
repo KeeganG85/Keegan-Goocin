@@ -45,8 +45,8 @@ Primary format: single-page scroll homepage, with two standalone pages (Booking/
 ### 6. Booking / Contact
 - **Purpose:** Convert.
 - **Form fields:** Name, phone, email, vehicle make/model/year, service location (mobile address or studio), preferred package (pre-filled if arriving from a Services card), preferred date/time, optional photo upload of current condition.
-- **Scheduling logic:** Calendar picker showing real availability by service area/day (mobile radius vs. studio-only slots), instant confirmation email/SMS, manual founder confirmation call within 2 hours for exotic/high-value vehicles.
-- **CTA placement:** Persistent sticky "Book Now" button in the nav from this point forward on mobile.
+- **Scheduling logic:** Calendar picker showing real availability by service area/day (mobile radius vs. studio-only slots). Submitting the form triggers an instant email/SMS acknowledging receipt only — it does not reserve a slot. The founder personally confirms the actual appointment by phone or text, typically within 2 hours, with priority response for exotic/high-value vehicles.
+- **CTA placement:** A persistent "Book Now" link lives in the top nav sitewide; on mobile, a sticky bottom CTA bar becomes visible once the visitor scrolls past the Hero (see Phase 4 UI/UX direction), giving one-tap access to Booking from every section that follows.
 - *CTA psychology: reduce friction to the minimum viable form — every extra required field is a chance for a mobile visitor to abandon.*
 
 ### 7. Footer
@@ -59,7 +59,7 @@ Primary format: single-page scroll homepage, with two standalone pages (Booking/
 
 ## Conversion Logic Map
 
-```
+```text
 Instagram/TikTok → Hero (aesthetic hook, single CTA)
                        ↓ scroll
                    Services (self-sort by tier)
@@ -75,4 +75,4 @@ Instagram/TikTok → Hero (aesthetic hook, single CTA)
                    Footer (safety net: contact info, socials, trust badges for not-yet-ready visitors)
 ```
 
-Booking is reachable via direct CTA from Hero, Services, Gallery, and Testimonials — never more than one section away from a conversion point, and never below three scrolls of content on mobile.
+Booking is reachable via direct CTA from Hero, Services, Gallery, and Testimonials — never more than one section away from a conversion point. On mobile, persistent one-tap access to Booking (via the sticky bottom bar) is never more than three scrolls away, regardless of where the Booking section itself falls in the page order.

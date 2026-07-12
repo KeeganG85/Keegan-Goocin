@@ -4,6 +4,10 @@
 
 ---
 
+## Content & Consent Guidelines
+
+Before publishing any client-facing content — handover reactions, client-submitted reposts, geotagged behind-the-scenes footage, or vehicle close-ups that include a visible license plate — get a signed release or explicit documented consent (a confirmed DM or text is sufficient for reposts) covering how and where the content will be used. Any car club, influencer, or creator collaboration includes a clear sponsorship/partnership disclosure in the caption (e.g., "in partnership with," "#ad" where compensation is involved), per FTC and platform guidelines.
+
 ## 30-Day Content Calendar
 
 ### Week 1 — Introduce the Founder and the Promise

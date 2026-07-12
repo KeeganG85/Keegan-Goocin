@@ -33,10 +33,10 @@
 
 ## Google Business Profile Optimization
 
-- **Service area setup:** Configure as a service-area business layered with a physical studio location — list Miami-Dade zip codes served for mobile, plus the studio address as a bookable location, so both "near me" mobile searches and studio-specific searches surface the listing.
-- **Photo strategy:** Upload before/after pairs weekly (matching the Phase 8 shot list), geotagged where possible; prioritize photos that show the vehicle against recognizable Miami backdrops to reinforce local relevance signals.
+- **Service area setup:** If the studio doesn't take walk-in or by-appointment customers on-site, configure the profile as a service-area business with the address hidden and Miami-Dade service-area zip codes listed. If the studio does serve customers in person, configure it as a hybrid profile (address shown alongside the service area) — but only once it has a permanent, customer-facing storefront with signage and staffed hours, per Google Business Profile policy.
+- **Photo strategy:** Upload before/after pairs weekly (matching the `08-photography-art-direction.md` shot list), geotagged where possible; prioritize photos that show the vehicle against recognizable Miami backdrops to reinforce local relevance signals.
 - **Review generation:** Trigger an automated review request via SMS/email 24 hours after every completed job, timed to when the "wow" of the reveal is still fresh; personally follow up with any 3-star-or-under review within 24 hours.
-- **Q&A seeding:** Proactively seed the Q&A section with the same questions answered in the Phase 6 FAQ (mobile vs. studio, ceramic safety on wraps, booking lead time) so they rank before a competitor's unanswered question does.
+- **Q&A seeding:** Proactively seed the Q&A section with the same questions answered in the `06-service-page-copy.md` FAQ (mobile vs. studio, ceramic safety on wraps, booking lead time) so they rank before a competitor's unanswered question does.
 
 ---
 
@@ -52,20 +52,20 @@
 
 ## Schema Markup Suggestions
 
-- **LocalBusiness (AutoDetailing subtype):** business name, address, service area, phone, hours, price range, geo-coordinates — anchors every page to local search relevance.
+- **LocalBusiness (`AutomotiveBusiness` type):** `AutoDetailing` is not a valid schema.org type, so use `AutomotiveBusiness` with "auto detailing" stated in the description — business name, address (or service area, per the GBP setup above), phone, hours, price range, geo-coordinates.
 - **Service:** one Service entity per package (Mía's Radiance, Full Gleam Ceramic, The Miami Rebirth) with name, description, and areaServed, so individual packages can surface in service-specific search results.
-- **Review/AggregateRating:** pulled live from Google Business Profile reviews, embedded on the homepage Testimonials section for rich-snippet star ratings in search results.
-- **FAQPage:** mirrors the Phase 6 FAQ content exactly, enabling FAQ rich results directly in the SERP for booking-related and safety-related queries.
+- **Review/AggregateRating:** homepage Testimonials are presented as customer testimonials, sourced from Google Business Profile reviews — not marked up as first-party `Review`/`AggregateRating` structured data, since Google ignores (and can penalize) self-serving review schema on a business's own site.
+- **FAQPage:** mirrors the `06-service-page-copy.md` FAQ content exactly. Its primary value is well-structured, crawlable on-page content for booking- and safety-related queries — not a guarantee of FAQ rich results, which Google has scaled back significantly since 2023.
 
 ---
 
 ## Local Backlink Opportunities
 
-- Miami-area car clubs and marque owner groups (exotic and classic) — sponsor a meetup or offer a member discount in exchange for a website link.
+- Miami-area car clubs and marque owner groups (exotic and classic) — sponsor a meetup or become a genuine member-benefit partner; a link is a natural byproduct of the relationship, not a condition of it.
 - Luxury dealership service-partner pages (dealerships that don't offer in-house ceramic coating often refer out).
 - Marina and yacht-club member directories — overlapping affluent-owner audience with vehicles at the same properties.
 - Luxury property management companies and high-rise condo concierge partner lists (Brickell, Edgewater, Sunny Isles) — position as a preferred vendor for residents.
-- Local automotive media and YouTube channels covering Miami car culture — offer a behind-the-scenes correction feature in exchange for a backlink.
+- Local automotive media and YouTube channels covering Miami car culture — pitch a genuinely newsworthy behind-the-scenes correction feature as editorial outreach, not as a link-for-coverage exchange.
 
 ---
 
