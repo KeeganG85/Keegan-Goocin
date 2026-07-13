@@ -82,9 +82,9 @@ a { color: inherit; }
   backdrop-filter: blur(8px); border-bottom: 1px solid rgba(11, 31, 42, 0.08);
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; padding-top: 14px; padding-bottom: 14px; }
-.logo-mark { display: flex; align-items: baseline; gap: 8px; text-decoration: none; }
-.logo-icon { display: inline-block; vertical-align: middle; margin-right: 2px; }
-.logo-word { font-weight: 800; letter-spacing: 0.06em; color: var(--deep-bay); font-size: 1.1rem; }
+.logo-mark { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.logo-img { display: block; height: 44px; width: auto; }
+.logo-mark-footer .logo-img { height: 52px; }
 .logo-signature { font-family: var(--font-script); font-style: italic; color: var(--causeway-gold); font-size: 1.15rem; }
 .nav-links { display: none; align-items: center; gap: 28px; font-weight: 600; font-size: 0.95rem; }
 .nav-links a { text-decoration: none; color: var(--wet-asphalt); }
