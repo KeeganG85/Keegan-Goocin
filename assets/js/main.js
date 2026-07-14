@@ -54,7 +54,19 @@
   // Before/After slider (drag + keyboard, per brand/07-uiux-design-direction.md)
   const slider = document.getElementById('baSlider');
   const before = document.getElementById('baBefore');
+  const beforeInner = before.querySelector('.ba-before-inner');
   const handle = document.getElementById('baHandle');
+
+  // Keep the before-photo layer pinned to the slider's full size, independent of
+  // the clipping wrapper's width, so the image stays fixed in place while dragging
+  // instead of rescaling/recentering as .ba-before's width changes.
+  function syncBeforeInnerSize() {
+    const rect = slider.getBoundingClientRect();
+    beforeInner.style.width = rect.width + 'px';
+    beforeInner.style.height = rect.height + 'px';
+  }
+  syncBeforeInnerSize();
+  window.addEventListener('resize', syncBeforeInnerSize);
 
   function setSliderPosition(percent) {
     const clamped = Math.min(96, Math.max(4, percent));
